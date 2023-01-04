@@ -1,3 +1,6 @@
+using System.Numerics;
+using System.Text.RegularExpressions;
+
 namespace IPAddressValidator;
 
 public class IPAddressValidator
@@ -16,5 +19,13 @@ public class IPAddressValidator
                      || !octet.IsParsableToDecimal(out int octetInDecimalFormat) // one or more octets are not parsable to decimal
                      || !octet.IsInValidRange(octetInDecimalFormat) // one or more octets is less than 0 or larger than 255
                      );
+    }
+
+    public static bool ValidateRegex(string ipAddress)
+    {
+        // Using Regex from: https://stackoverflow.com/a/36760050
+        var rx = new Regex(@"^((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)(\.(?!$)|$)){4}$");
+
+        return rx.IsMatch(ipAddress);
     }
 }
