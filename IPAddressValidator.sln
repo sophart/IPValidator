@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPAddressValidator", "IPAddressValidator\IPAddressValidator.csproj", "{2F095265-82A7-4B25-87C1-FAA87E8E687A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPAddressValidator.Tests", "IPAddressValidator.Tests\IPAddressValidator.Tests.csproj", "{3C79273E-0B08-4CE8-80E3-9D10724A4835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F095265-82A7-4B25-87C1-FAA87E8E687A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F095265-82A7-4B25-87C1-FAA87E8E687A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F095265-82A7-4B25-87C1-FAA87E8E687A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F095265-82A7-4B25-87C1-FAA87E8E687A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C79273E-0B08-4CE8-80E3-9D10724A4835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C79273E-0B08-4CE8-80E3-9D10724A4835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C79273E-0B08-4CE8-80E3-9D10724A4835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C79273E-0B08-4CE8-80E3-9D10724A4835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
