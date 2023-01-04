@@ -14,7 +14,20 @@ var ipAddresses = new[]
     "1.-1.1.1"
 };
 
+Console.WriteLine("-----------------------------------------");
+Console.WriteLine("Validate with My Algorithm Implementation");
+Console.WriteLine("-----------------------------------------");
 foreach (var address in ipAddresses)
 {
     Console.WriteLine($"{address} is valid: {IPAddressValidator.IPAddressValidator.Validate(address)}");
+}
+
+Console.WriteLine("");
+
+Console.WriteLine("-------------------");
+Console.WriteLine("Validate with Regex");
+Console.WriteLine("-------------------");
+foreach (var address in ipAddresses)
+{
+    Console.WriteLine($"{address} is valid: {IPAddressValidator.IPAddressValidator.ValidateRegex(address)}");
 }
