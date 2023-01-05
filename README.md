@@ -11,11 +11,11 @@ IPAddressValidator.ValidateRegex(string ipAddress)
 ```
 
 ## Rules Used to Consider the Valid IP
-- IP must contain exactly 4 octates
-- Each octate must have at least 1 and not more than 3 digits
-- Each octate that has more than 1 digit, the first digit must not be 0
-- Each octate should be parsable to decimal
-- Each octate after parsed as decimal, the value should be in range from 0 to 255
+- IP must contain exactly 4 octets
+- Each octet must have at least 1 and not more than 3 digits
+- Each octet that has more than 1 digit, the first digit must not be 0
+- Each octet should be parsable to decimal
+- Each octet after parsed as decimal, the value should be in range from 0 to 255
 
 ## Sample Inputs
 
